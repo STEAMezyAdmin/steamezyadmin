@@ -24,6 +24,13 @@
  		object-fit: cover; /* Prevents the image from squishing or stretching */
   		object-position: center; /* Keeps the focal point in the middle */
    }
+   .ratio-banner {
+		  width: 100%;             /* Tells the image to fill the screen width */
+		  aspect-ratio: 16 / 9;    /* Forces the height to automatically be 16:9 based on the width */
+		  object-fit: cover;       /* Crops the image perfectly to fit the box without distorting */
+		  object-position: center; /* Keeps the middle of your image in the spotlight */
+		  display: block;          /* Removes tiny visual gaps under the image */
+	}
   </style>
 </head>
 <body  bgcolor="#434046">
@@ -31,7 +38,8 @@
 	    <!-- <div class="banner-wrapper">
            <img src="banner.jpg" alt="Website Banner" class="responsive-banner">
         </div> -->
-		<img src = "banner.jpg" ></img> 
+		<!-- <img src = "banner.jpg" ></img>  -->
+		<img src="banner.jpg" alt="Website Banner" width="1920" height="1080" class="ratio-banner">
 	    <ul class="social-media-list">
               <li><a href="https://www.facebook.com/profile.php?id=100094608903255"><img src="fb.png" alt="Facebook"></a></li>
               <li><a href="https://twitter.com/@STEAM_ezy"><img src="https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg" alt="Twitter"></a></li>
