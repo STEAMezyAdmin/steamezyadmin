@@ -1,52 +1,141 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>STEAMezy Learning Center</title>
-  <style>
-    .social-media-list {
-      list-style: none;
-      padding: 0;
-    }
-    .social-media-list li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-    .social-media-list li img {
-      width: 32px; /* Adjust the width as needed */
-      height: 32px; /* Adjust the height as needed */
-    }
-	a {
-      color: white; /* Change the color value to your desired color */
-    }
-	.responsive-banner {
- 		width: 100%;       /* Ensures it spans the full width of its container */
-  		height: 1360px;     /* Set a fixed or max-height that looks good to you */
- 		object-fit: cover; /* Prevents the image from squishing or stretching */
-  		object-position: center; /* Keeps the focal point in the middle */
-   }
-   .ratio-banner {
-		  width: 100%;             /* Tells the image to fill the screen width */
-		  aspect-ratio: 16 / 9;    /* Forces the height to automatically be 16:9 based on the width */
-		  object-fit: cover;       /* Crops the image perfectly to fit the box without distorting */
-		  object-position: center; /* Keeps the middle of your image in the spotlight */
-		  display: block;          /* Removes tiny visual gaps under the image */
-	}
-  </style>
-</head>
-<body  bgcolor="#434046">
-     <center>
-	    <!-- <div class="banner-wrapper">
-           <img src="banner.jpg" alt="Website Banner" class="responsive-banner">
-        </div> -->
-		<img src = "banner.jpg" ></img> 
-		<!-- <img src="banner.jpg" alt="Website Banner" width="1920" height="1080" class="ratio-banner"> -->
-	    <ul class="social-media-list">
-              <li><a href="https://www.facebook.com/profile.php?id=100094608903255"><img src="fb.png" alt="Facebook"></a></li>
-              <li><a href="https://twitter.com/@STEAM_ezy"><img src="https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg" alt="Twitter"></a></li>
-              <li><a href="https://www.instagram.com/steam.ezy"><img src="https://www.logo.wine/a/logo/Instagram/Instagram-Logo.wine.svg" alt="Instagram"></a></li>
-              <li><a href="https://www.youtube.com/@STEAMezy"><img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="Youtube"></a></li>
-                 <!-- Add more social media platforms as needed -->
-            </ul>
-     </center>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>STEAMezy Labs | Think Beyond School • Daycare, Preschool, Afterschool & Training</title><meta name="description" content="STEAMezy Labs near Keeranatham SEZ IT Park, Coimbatore offers STEAM Daycare, Preschool, Afterschool enrichment, Academia Training, and Corporate Training."><link rel="stylesheet" href="assets/css/styles.css"></head><body>
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>📍 Near Keeranatham SEZ IT Park, Keeranatham, Coimbatore - 641035</span>
+      <div><span>📞 +91 88703 72926</span> | <span>✉️ contact@steamezy.com</span></div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo"><img src="assets/images/logo.jpg" alt="STEAMezy Labs" class="logo-img"></a>
+      <button class="mobile-nav-toggle" aria-label="Toggle Menu">☰</button>
+      <nav id="primary-navigation" class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="daycare.html" class="nav-link">Daycare</a>
+        <a href="preschool.html" class="nav-link">Preschool</a>
+        <a href="afterschool.html" class="nav-link">Afterschool</a>
+        <div class="nav-dropdown">
+          <a href="training.html" class="nav-link">Training <span class="dropdown-caret">▼</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="training.html#academia-training" class="dropdown-item">Academia Training<small>Schools & Colleges</small></a></li>
+            <li><a href="training.html#corporate-training" class="dropdown-item">Corporate Training<small>Tech & Innovation</small></a></li>
+          </ul>
+        </div>
+        <a href="index.html#gallery" class="nav-link">Gallery</a>
+        <a href="contact.html" class="btn btn-primary">Schedule a Tour</a>
+      </nav>
+    </div>
+  </header>
+
+    <main id="main-content">
+      <section class="hero"><div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Think Beyond School • Near Keeranatham SEZ IT Park</span>
+          <h1>Where Natural Curiosity Grows Into Lifelong Confidence.</h1>
+          <p class="hero-lead">STEAMezy Labs blends nurturing early childcare with hands-on discovery in Science, Technology, Engineering, Arts, and Math—from infant daycare and preschool to K–12 afterschool clubs, Academia Training, and Corporate Training.</p>
+          <div class="hero-actions"><a href="contact.html" class="btn btn-primary">Schedule a Campus Visit</a><a href="#programs" class="btn btn-secondary">Explore Our Services</a></div>
+          <div class="trust-badges">
+            <div class="trust-item"><strong>IT Park Convenient</strong><span>Near Keeranatham SEZ</span></div>
+            <div class="trust-item"><strong>Low Ratios</strong><span>Safe & Caring Mentors</span></div>
+            <div class="trust-item"><strong>100% Hands-On</strong><span>Robotics, Labs & Maker Arts</span></div>
+          </div>
+        </div>
+        <div class="img-placeholder"><img src="assets/gallery/photo1.jpg" alt="STEAMezy Labs Classroom" style="border-radius:16px; width:100%; height:340px; object-fit:cover;"></div>
+      </div></section>
+      <section id="programs" class="section section-sand"><div class="container">
+        <div class="section-header"><span class="eyebrow">Complete STEAM Ecosystem</span><h2>Programs for Children, Educators, and Enterprises</h2><p>Located right near Keeranatham SEZ IT Park, our campus supports working parents, K–12 students, academic institutions, and corporate teams.</p></div>
+        <div class="grid-4">
+          <article class="card"><span class="card-badge badge-daycare">Ages 6 Weeks – 3 Years</span><h3>STEAM Daycare</h3><p>Warm, responsive infant and toddler care tailored to IT professionals' schedules with sensory STEAM discovery.</p><a href="daycare.html" class="btn btn-secondary" style="margin-top:auto;">Explore Daycare →</a></article>
+          <article class="card"><span class="card-badge badge-preschool">Ages 3 – 5 Years</span><h3>STEAM Preschool</h3><p>Project-based school readiness pairing phonics and numeracy with hands-on experiments and screen-free robotics.</p><a href="preschool.html" class="btn btn-secondary" style="margin-top:auto;">Explore Preschool →</a></article>
+          <article class="card"><span class="card-badge badge-afterschool">Ages 5 – 12 Years</span><h3>STEAM Afterschool</h3><p>Energizing afternoons with homework mentoring, LEGO® robotics, Scratch/Python coding, 3D design, and maker clubs.</p><a href="afterschool.html" class="btn btn-secondary" style="margin-top:auto;">Explore Afterschool →</a></article>
+          <article class="card"><span class="card-badge badge-training">Institutions & Enterprises</span><h3>STEAM Training</h3><p>Specialized hands-on training divisions empowering schools, colleges, and corporate teams across Coimbatore.</p><a href="training.html" class="btn btn-secondary" style="margin-top:auto;">Explore Training →</a></article>
+        </div>
+      </div></section>
+      <section class="section"><div class="container">
+        <div class="section-header"><span class="eyebrow">Our Educational Philosophy</span><h2>How STEAM Comes Alive at STEAMezy Labs</h2><p>We replace rote memorization with curiosity-driven tinkering, experimentation, and creative problem-solving.</p></div>
+        <div class="steam-pillars">
+          <div class="pillar-card pillar-s"><span class="pillar-letter">S</span><h3>Science</h3><p>Kitchen chemistry, physics in motion, botany gardens, microscope labs, and real-world experimentation.</p></div>
+          <div class="pillar-card pillar-t"><span class="pillar-letter">T</span><h3>Technology</h3><p>Tactile coding tiles for preschoolers, advancing to Python, IoT sensors, AI fundamentals, and robotics.</p></div>
+          <div class="pillar-card pillar-e"><span class="pillar-letter">E</span><h3>Engineering</h3><p>Structural bridge challenges, hydraulics, electronics circuits, CAD/3D printing, and rapid prototyping.</p></div>
+          <div class="pillar-card pillar-a"><span class="pillar-letter">A</span><h3>Arts</h3><p>Studio sculpture, color theory, stop-motion animation, UI/UX creativity, and musical rhythm.</p></div>
+          <div class="pillar-card pillar-m"><span class="pillar-letter">M</span><h3>Mathematics</h3><p>Tactile geometry puzzles, algorithmic logic, mental math games, data visualization, and strategy chess.</p></div>
+        </div>
+      </div></section>
+      
+    <section id="gallery" class="section section-sand">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Campus & Lab Moments</span>
+          <h2>Inside STEAMezy Labs</h2>
+          <p>Explore our hands-on science labs, sensory daycare suites, robotics arenas, and training workshops. Click any rolling thumbnail below to view it full-size.</p>
+        </div>
+        <div class="gallery-wrapper">
+          <div class="gallery-main-stage">
+            <button type="button" id="gallery-prev" class="gallery-nav-btn gallery-prev">&#10094;</button>
+            <img id="gallery-main-img" src="assets/gallery/photo1.jpg" alt="Gallery Photo" class="gallery-main-img">
+            <button type="button" id="gallery-next" class="gallery-nav-btn gallery-next">&#10095;</button>
+            <div class="gallery-caption-bar">
+              <div>
+                <h3 id="gallery-main-title">Hands-On Science Discovery Lab</h3>
+                <p id="gallery-main-desc">Young learners conducting safe colour-chemistry and physics experiments.</p>
+              </div>
+              <span id="gallery-counter" class="gallery-counter">1 / 8</span>
+            </div>
+          </div>
+          <div class="gallery-roller-container">
+            <div id="gallery-roller-track" class="gallery-roller-track"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html"><img src="assets/images/logo.jpg" alt="STEAMezy Labs" class="footer-logo-img"></a>
+          <p>Igniting curiosity and future-ready skills through hands-on STEAM Daycare, Preschool, Afterschool, Academia Training, and Corporate Training programs in Coimbatore.</p>
+        </div>
+        <div>
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="daycare.html">STEAM Daycare (6 wks – 3 yrs)</a></li>
+            <li><a href="preschool.html">STEAM Preschool (3 – 5 yrs)</a></li>
+            <li><a href="afterschool.html">STEAM Afterschool (5 – 12 yrs)</a></li>
+            <li><a href="training.html#academia-training">Academia Training</a></li>
+            <li><a href="training.html#corporate-training">Corporate Training</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours of Operation</h4>
+          <ul>
+            <li><strong>Monday – Friday:</strong> 7:30 AM – 6:30 PM</li>
+            <li><strong>Saturday:</strong> 9:00 AM – 4:00 PM</li>
+            <li><strong>Sunday:</strong> Closed</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>📍 Near Keeranatham SEZ IT Park, Keeranatham, Coimbatore - 641035</li>
+            <li>📞 +91 88703 72926</li>
+            <li>✉️ contact@steamezy.com</li>
+            <li>🌐 www.steamezy.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 STEAMezy Labs (www.steamezy.com). All rights reserved.</span>
+        <div class="visitor-counter-box" aria-live="polite">
+          <span class="visitor-dot" aria-hidden="true"></span>
+          <span>Total Visitors:</span>
+          <span id="visitor-count" class="visitor-digits">14,821</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="https://wa.me/918870372926" id="whatsapp-float-btn" class="whatsapp-float" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
